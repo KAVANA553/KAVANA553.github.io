@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KAVANA B.S. - Curriculum Vitae</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #43C197;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            color: #1C1554;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+        }
+        
+        .section h2 {
+            color: #43C197;
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            border-left: 4px solid #1C1554;
+            padding-left: 10px;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .contact-item strong {
+            color: #1C1554;
+        }
+        
+        .education-item, .experience-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            border-left: 2px solid #ddd;
+        }
+        
+        .education-item h3, .experience-item h3 {
+            color: #1C1554;
+            margin-bottom: 5px;
+        }
+        
+        .education-item p, .experience-item p {
+            color: #666;
+            margin-bottom: 3px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+        }
+        
+        .skill-item {
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 4px;
+            border-left: 3px solid #43C197;
+        }
+        
+        .projects-list {
+            list-style: none;
+        }
+        
+        .projects-list li {
+            margin-bottom: 10px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+        }
+        
+        .projects-list li strong {
+            color: #1C1554;
+        }
+        
+        @media print {
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>KAVANA B.S.</h1>
+        <p>Java Full Stack Developer</p>
+        <p>Bangalore, India | kavanashridhar6@gmail.com</p>
+    </div>
+    
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>I am a dedicated Java Full Stack Developer with a strong academic background and hands-on experience in designing, developing, and deploying scalable web applications. I graduated with a Bachelor's degree in Computer Science and Engineering from AMC Engineering College (VTU), achieving a CGPA of 9.08. My core technical skills include Java, Python, HTML, CSS, JavaScript, React.js, MySQL, along with a solid understanding of object-oriented programming, data structures, and RESTful services.</p>
+    </div>
+    
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor of Engineering in Computer Science and Engineering</h3>
+            <p><strong>AMC Engineering College (VTU)</strong> | 2020-2024</p>
+            <p>CGPA: 9.08</p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-item">Java</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">HTML5</div>
+            <div class="skill-item">CSS3</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React.js</div>
+            <div class="skill-item">MySQL</div>
+            <div class="skill-item">Git</div>
+            <div class="skill-item">AWS</div>
+            <div class="skill-item">Power BI</div>
+            <div class="skill-item">Data Structures & Algorithms</div>
+            <div class="skill-item">AI/ML</div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Internship Experience</h2>
+        <div class="experience-item">
+            <h3>Full Stack Developer Intern</h3>
+            <p><strong>Axicom Information Technology LLP</strong></p>
+            <p>Gained practical exposure to full-stack development, UI/UX design, API integration, and Agile development practices. Worked collaboratively with cross-functional teams and used tools such as Git, Jira, VS Code, Eclipse, and Power BI to deliver reliable solutions.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Full Stack Developer Intern</h3>
+            <p><strong>Digit Insight</strong></p>
+            <p>Developed web applications and contributed to various projects using modern web technologies. Followed structured workflows and participated in code reviews and testing processes.</p>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2>Projects</h2>
+        <ul class="projects-list">
+            <li>
+                <strong>Public Grievance Portal</strong><br>
+                Developed a portal enabling citizens to register and track complaints online with an admin panel for management. Built with HTML, CSS, JavaScript, PHP, and MySQL.
+            </li>
+            <li>
+                <strong>Brain Tumor Detection System</strong><br>
+                Developed a CNN-based system for detecting brain tumors from MRI images using Python, OpenCV, and TensorFlow/Keras, achieving 95% accuracy.
+            </li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <strong>Email:</strong> kavanashridhar6@gmail.com
+            </div>
+            <div class="contact-item">
+                <strong>Location:</strong> Bangalore, India
+            </div>
+            <div class="contact-item">
+                <strong>LinkedIn:</strong> https://linkedin.com/in/kavana-shridhar
+            </div>
+            <div class="contact-item">
+                <strong>GitHub:</strong> https://github.com/KAVANA553/Kavana-Shridhar_5
+            </div>
+        </div>
+    </div>
+</body>
+</html>
